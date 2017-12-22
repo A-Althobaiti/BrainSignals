@@ -1,0 +1,1 @@
+These are the dual-xcorr values of the 150th epoch from the dataset F141020-lfp-5min-1kHz-POST.
