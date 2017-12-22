@@ -12,6 +12,17 @@ Matplotlib
 igraph
 ```
 
+## Installation
+
+There is no automatic of installing the library, but it can be installed manually as explained below.
+
+The following files:
+```
+graph.py
+network_layout.py
+```
+has to be located in the same folder, and then you can start using it as explained below.
+
 ## Getting started
 
 In order to visualize the dual-frequency interaction, the computed cross-correlation matrix has to be loaded through `load_bands()`. It must be a numpy an `n x n` array.
