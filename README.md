@@ -2,7 +2,7 @@
 This library has been developed to extend the visualization
 of the BrainSignal library.
 In order to visualize the dual-frequency interaction, the computed
-cross-correlation matrix has to be loaded through load_bands(). It must be a numpy 2d array
+cross-correlation matrix has to be loaded through `load_bands()`. It must be a numpy an `n x n` array.
 ```
 data = load_bands(path='./frequencies/')
 ```
