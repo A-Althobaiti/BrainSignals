@@ -45,3 +45,14 @@ a PlotLy Network Visualization to visualze all the networks in one plot
 ```
 plot_dual_networks(dual_net, 'Plot Title')
 ```
+
+## Deployment
+A fully deployed version can be found [here](http://ec2-52-14-35-109.us-east-2.compute.amazonaws.com/bs/).
+
+
+## Authors
+- Abdulrahman Althobaiti
+
+
+## License
+This project is licensed under the MIT License
