@@ -1,8 +1,20 @@
 # Brain Signals Dual-Frequency Visualization 
-This library has been developed to extend the visualization
-of the BrainSignal library.
-In order to visualize the dual-frequency interaction, the computed
-cross-correlation matrix has to be loaded through `load_bands()`. It must be a numpy an `n x n` array.
+This library has been developed to extend the visualization of the BrainSignal library. The BrainSignal library utilizes a novel approach of computing the dual-frequency cross-correlation. After cross-correlation is computed, this library can be utilized to visualize the interaction between populations of neurons on different frequencies.
+
+## Prerequisites 
+
+The following libraries are required for full functionality
+
+```
+Numpy
+Plotly
+Matplotlib
+igraph
+```
+
+## Getting started
+
+In order to visualize the dual-frequency interaction, the computed cross-correlation matrix has to be loaded through `load_bands()`. It must be a numpy an `n x n` array.
 ```
 data = load_bands(path='./frequencies/')
 ```
